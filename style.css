@@ -9,6 +9,10 @@
     text-decoration: none;
 }
 
+main{
+    overflow: hidden;
+}
+
 nav{
     position: fixed;
     width: 100%;
@@ -50,7 +54,7 @@ div.banner{
 
 div.conteudo{
     background-color: rgb(255, 255, 255);
-    height: 2000px;
+    height:auto;
     text-align: center;
     background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
@@ -64,10 +68,62 @@ div.conteudo > h2{
     margin-bottom: 75px;
 }
 
-div.conteudo > img{
+div.conteudo > h3{
+    margin-bottom: 30px;
+}
+
+div.conteudo > h4{
+    padding: 30px;
+}
+
+.img1{
     margin-bottom: 20px;
 }
 
+.img2{
+    margin-bottom: 50px;
+    height: 300px;
+}
+
+.github{
+    height: 50px;
+}
+
+.linkedin{
+    height: 50px;
+}
+
+#github:hover{
+    rotate: 360deg;
+    transition: .5s;
+    border-radius: 100px;
+    box-shadow: -1px 7px 30px 0px black;
+}
+
+#linkedin:hover{
+    rotate:-360deg;
+    transition: .5s;
+    border-radius: 100px;
+    box-shadow: -1px 7px 30px 0px black;
+}
+
+iframe{
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: antiquewhite;
+    text-align: center;
+    height: 450px;
+}
+
+footer > h1{
+    padding-top: 40px;
+}
+
+footer > p{
+    padding-top: 70px;
+}
 
 
 

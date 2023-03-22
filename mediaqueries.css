@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+@media screen and (max-width:600px){
+    div.banner{
+        background: url(../imagens/bannerphone.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 1000px;
+        width: 100%;
+        margin-top:-270px;
+        margin-bottom: 70px;
+        }
+        div.conteudo{
+            background-color: rgb(255, 255, 255);
+            height:auto;
+            text-align: center;
+            background-repeat: no-repeat;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        div.conteudo > p{
+            position: relative;
+            margin-bottom: 50px;
+            top: -150px;
+        }
+        
+        div.conteudo > h2{
+            position: relative;
+            margin-bottom: 75px;
+            top: -150px;
+        }
+
+        iframe{
+            padding-bottom: 20px;
+            width: 280px;
+        }
+}
+
+@media screen and (min-width:600px) and (max-width:992px){
+    div.banner{
+        background: url(../imagens/bannertab.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 1000px;
+        width: 100%;
+        margin-top:-270px;
+        margin-bottom: 70px;
+    }
+}
